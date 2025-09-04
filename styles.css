@@ -1,8 +1,17 @@
 /* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=VT323&display=swap');
+:root{
+--ink: #2F4F21;
+--bg: #F9F9F9;
+--brand: #2F4F21;
+--muted: #64748b;
+--card: #ffffff;
+--border: #e5e7eb;
+--hero: #A0F1BD;
+}
+
 *{
-    margin: 0;
-    padding: 0;
+   box-sizing: border-box;
 }
 body {
 font-family: "Inter", sans-serif;
@@ -19,6 +28,15 @@ h1,h2,h3,h4,p {
 body, html {
     max-width: 100%;
   min-height: 100%;
+}
+
+img { max-width: 100%; 
+    height: auto; 
+    display: block;
+ }
+
+a { 
+    color: inherit; 
 }
 
 /* BUTTONS */
