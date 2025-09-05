@@ -8,6 +8,7 @@
 --card-bg: #ffffff;
 --border: #e5e7eb;
 --card: #cff3dd;
+--hero: #a0f1bd;
 
 }
 
@@ -152,23 +153,34 @@ padding: 0.7rem;
 
 /* HERO */
 #hero{
- background-color: rgba(160,241,189,255); 
- display: flex;
+background: var(--hero);
 }
-h1{
-    font-size: 4rem;
-    font-weight: 300;
+#hero .grid{
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;  /* tweak to taste */
+  align-items: center;
+  gap: 2rem;
 }
-.hero-icon {
- display: flex;
-max-width: 100%;
+
+.hero__cta {
+ display: flex; 
+ align-items: center; 
+ gap: 1rem; 
+ margin-top: 1rem; 
+ flex-wrap: wrap;
+}
+
+.hero__media{
+  display: flex;              
+  justify-content: center;
+}
+.hero__media img{
+  display: block;
+  max-width: 520px;          
+  width: 100%;
   height: auto;
 }
 
-#hero-icon {
-    align-content: left;
-    border: 2px dash red;
-}
 
 
 
