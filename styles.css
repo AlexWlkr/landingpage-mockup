@@ -5,9 +5,9 @@
 --bg: #F9F9F9;
 --brand: #2F4F21;
 --muted: #64748b;
---card: #ffffff;
+--card-bg: #ffffff;
 --border: #e5e7eb;
---hero: #A0F1BD;
+
 }
 
 *{
@@ -169,7 +169,7 @@ max-width: 100%;
 
 
 
-/* SERVICES */
+/* SERVICES (CARDS) */
 #services-title{
         text-align: center;
 }
