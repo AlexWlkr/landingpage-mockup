@@ -252,6 +252,8 @@ color:rgb(47, 79, 33);
           text-decoration:none; 
           box-shadow:0 1px 2px rgba(0,0,0,.03);
          }
+
+
 /* TESTIMONIALS */
 
 /* AUDIENCE */
@@ -268,8 +270,9 @@ color:rgb(47, 79, 33);
 /* FOOTER */
 
 footer {
-  border-top: 1px solid var(--border);
-  padding: 2rem 0;
+  background: var(--ink);
+  color: #fff;
+  padding: 5rem 1rem;
 }
 
 footer .foot {
@@ -277,20 +280,27 @@ footer .foot {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .footer-header {
   margin: 0;
   font-weight: 700;
-  color: var(--ink);
 }
 
-.footer-cta {
-  text-align: center;
-  margin-top: 1rem;
+.footer-link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.footer-cta .btn {
-  margin-inline: auto; 
+footer .btn {
+  background: #F9F9F9;   
+  color: var(--brand);
+  border: 1px solid #F9F9F9;
+  font-weight: 300;
+  min-width: auto;
+  padding: 0.6rem 1.2rem;
 }
