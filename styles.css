@@ -335,7 +335,24 @@ color: var(--ink);
 /* CONNECT */
 #connect {
   text-align: center;
+  padding: 6rem 0 4rem; 
 }
+
+#connect-title {
+  max-width: 22ch;            
+  margin: 0 auto 1.75rem;      
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+#connect .connect_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;         
+  gap: 1.25rem;
+}
+
 #connect .btn {
   margin-top: 1rem;
 }
