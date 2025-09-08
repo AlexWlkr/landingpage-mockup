@@ -274,12 +274,6 @@ color:rgb(47, 79, 33);
   object-fit: cover;          
 }
 
-#audience .audience.banner {
-  grid-column: 1 / -1;
-  max-height: 440px;
-  object-fit: cover;
-  display: block;
-}
 #audience .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
