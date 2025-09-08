@@ -263,7 +263,16 @@ color:rgb(47, 79, 33);
 /* TESTIMONIALS */
 
 /* AUDIENCE */
+#audience { padding: 0 0 4rem; }
 
+#audience .audience.banner {
+  grid-column: 1 / -1;
+  width: 100dvw;
+  margin-left: calc(50% - 50dvw);
+  max-height: 440px;
+  object-fit: cover;
+  display: block;
+}
 
 /* CONNECT */
 #connect {
