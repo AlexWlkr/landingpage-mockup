@@ -359,39 +359,73 @@ color: var(--ink);
 
 /* FOOTER */
 
-footer {
-  background: var(--ink);
-  color: #fff;
-  padding: 5rem 1rem;
+/* SCREEN-READER-ONLY HELPER */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
 }
 
-footer .foot {
+footer.site-footer {
+  background: var(--ink);
+  color: #fff;
+  padding: 4rem 1rem 2rem;
+}
+
+/* TOP FOOTER ROW */
+footer .foot-top {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .brand {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2vw, 2rem);
+}
+
+footer .footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+/* WHITE PILL CTA */
+footer .btn.btn-invert {
+  background: #fff;
+  color: var(--ink);
+  border: none;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  width: auto;
+}
+
+/* BOTTOM FOOTER ROW  */
+footer .foot-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  margin-top: 3.5rem;
 }
 
-
-.footer-header {
+footer .foot-tagline {
   margin: 0;
-  font-weight: 500;
+  max-width: 46ch;
+}
+footer .foot-tagline strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
 }
 
-.footer-link {
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 0.75rem;
-  color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer .btn {
-  background: #F9F9F9;   
-  color: var(--brand);
-  border: 1px solid #F9F9F9;
-  font-weight: 300;
-  min-width: auto;
-  padding: 0.6rem 1.2rem;
+footer .foot-copy {
+  margin: 0;
+  opacity: 0.95;
 }
