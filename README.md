@@ -23,7 +23,7 @@ Tech Stack
 
 Why I Built This
 
-- I created Noble Finances to practice building a marketing site directly from a Figma design ([reference design]([url](http://127.0.0.1:5500/))).
+- I created Noble Finances to practice building a marketing site directly from a Figma design ([reference design]([url](https://plum-lunar-server.figma.site/)).
 - My goal was to translate a static mockup into responsive, accessible, production-ready code. This project gave me a chance to:
 - Refine my responsive design workflow
 - Match layout and typography closely to the design system
