@@ -1,0 +1,34 @@
+/* ===== Audience Mobile Stack ===== */
+@media (max-width: 900px) {
+  /* stack headline and paragraph */
+  #audience .container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  #audience .container > p {
+    grid-column: 1;
+  }
+
+  /* stack tiles vertically */
+  .audience-segments {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .segment {
+    border-left: 0; /* remove vertical divider */
+    border-top: 1px solid color-mix(in oklab, var(--ink), transparent 70%);
+    padding-top: 1.25rem;
+  }
+
+  .audience-segments .segment:first-child {
+    border-top: 0;  /* remove border above first tile */
+    padding-top: 0;
+  }
+
+  /* prevent sideways scroll caused by 100dvw breakout */
+  html, body {
+    overflow-x: hidden;
+  }
+}
