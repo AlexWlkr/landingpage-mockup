@@ -445,3 +445,10 @@ footer .foot-copy {
   white-space: nowrap;
   color: #fff;
 }
+
+footer.site-footer p {
+  color: #fff;
+  font-size: 0.875rem; 
+  line-height: 1.4; 
+  margin: 0;  
+}
