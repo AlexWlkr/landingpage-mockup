@@ -265,10 +265,17 @@ color:rgb(47, 79, 33);
 /* AUDIENCE */
 #audience { padding: 0 0 4rem; }
 
+#audience .banner {
+  display: block;
+  width: 100%;              
+  height:  65vh; 
+  min-height: 400px; 
+  max-height: 700px; 
+  object-fit: cover;          
+}
+
 #audience .audience.banner {
   grid-column: 1 / -1;
-  width: 100dvw;
-  margin-left: calc(50% - 50dvw);
   max-height: 440px;
   object-fit: cover;
   display: block;
