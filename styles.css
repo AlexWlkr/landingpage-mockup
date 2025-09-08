@@ -326,7 +326,7 @@ color:rgb(47, 79, 33);
 }
 
 .segment .eyebrow {
-  color: color-mix(in oklab, var(--ink), transparent 35%);
+color: var(--ink); 
   margin: 0 0 .75rem;
   font-weight: 500;
 }
