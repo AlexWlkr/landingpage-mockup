@@ -92,3 +92,24 @@
     overflow-x: hidden;
   }
 }
+
+/* <= 900px: make each .card single-column, tighten gaps */
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .card .media img {
+    width: 100%;
+    max-width: 520px;
+    margin-inline: auto;
+  }
+}
+
+/* <= 600px: slightly smaller padding */
+@media (max-width: 600px) {
+  .card {
+    padding: 1.5rem;
+  }
+}
