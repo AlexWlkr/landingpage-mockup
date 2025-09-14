@@ -338,6 +338,12 @@ section {
   object-fit: cover;
 }
 
+.roles li:hover { background: color-mix(in oklab, var(--brand), white 70%); }
+.roles li:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--brand), white 25%);
+  outline-offset: 2px;
+}
+
 /* AUDIENCE */
 #audience {
   padding: 0 0 4rem;
