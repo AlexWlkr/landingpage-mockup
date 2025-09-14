@@ -30,6 +30,7 @@ Why I Built This
 
 What’s Next
 
+- Update and refactor breapoints for mobile and tablet viewports.
 - Add service icons with SVG for sharper visuals.
 - Add appointment booking form as a stretch goal.
 
