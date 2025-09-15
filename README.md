@@ -30,15 +30,14 @@ Why I Built This
 
 What’s Next
 
-- Build Testimonials JavaScript: clicking a role on the left will swap in a testimonial on the right with smooth transitions.
-- Deploy on Netlify: make the project live with a shareable URL.
+- Update and refactor breapoints for mobile and tablet viewports.
 - Add service icons with SVG for sharper visuals.
 - Add appointment booking form as a stretch goal.
 
 Try It Out
 
 👉 Live Site
-Live site link coming soon (Netlify deployment in progress).
+Live site link: ([Netlify deployment in progress](https://frabjous-florentine-a6cadd.netlify.app/)).
 
 Let’s Connect
 
